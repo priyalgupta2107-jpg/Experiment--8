@@ -2,11 +2,11 @@
 # Aim of Experiment: Study of For loops in Python
 # Theory:
 - A for loop in Python is a control statement used to repeat a block of code multiple times.  
-- It is mainly used when the number of iterations is known or when you want to iterate over a sequence like a list, string, tuple, or range.  
+- It is mainly used when the number of iterations is known or when you want to iterate over a sequence.    
 - A for loop executes a group of statements for each item in a sequence.
-- It works as-Python takes the first value from the sequence, Assigns it to the loop variable, Executes the code inside the loop,
+- It works as-Python takes the first value from the sequence, Assigns it to the loop variable.    
    Moves to the next value and Repeats the process until the sequence is finished.  
-- Important Features of for Loop-Used for sequences (list, tuple, string, range, etc.), Automatically stops after last element,
+- Important Features of for Loop-Used for sequences (list, tuple, string, range, etc.  
 -  No need to manually update loop variable and Makes code simple and readable.
 - For Loop with else-Python allows an else block with a for loop.
 - Advantages of for Loop-Easy to use, Less chance of infinite loop, Clean and readable code and Works directly with collections.
@@ -18,12 +18,12 @@
 5.Stop when the loop ends (after i = 5).  
 6.End.  
 ## Algorithm 2: To print even numbers from 2 to 10 using for loop.
-1.Start.
-2.Use a for loop along with the range function to generate numbers from 2 to 10 with a step of 2.
-3.Assign each generated number to a variable.
-4.Display the value.
-5.Continue until the range is exhausted.
-6.Stop.
+1.Start.  
+2.Use a for loop along with the range function to generate numbers from 2 to 10 with a step of 2.  
+3.Assign each generated number to a variable.  
+4.Display the value.  
+5.Continue until the range is exhausted.  
+6.Stop.  
 ## Algorithm 3: To print Sum of first N numbers:
 1.Start.  
 2.Input a number n from the user.  
@@ -63,7 +63,7 @@ If the inner loop completes without finding any divisor (i.e., no break occurred
 5.Print num and display result.
 6.Repeat steps for all numbers in the range.
 7.End.
-## Algorithm 7: Printing a Right-Angled Triangle Star Pattern usinf for loop
+## Algorithm 7: Printing a Right-Angled Triangle Star Pattern using for loop:
 1.Start.  
 2.Initialize a loop variable i from 5 down to 1(using range(5, 0, -1)).  
 3.For each value of i, do the following:
@@ -72,3 +72,11 @@ Move to the next value of i (decrease by 1 each time).
 4.Stop when i becomes 0.
 5.Display the result.
 6.End.  
+## Algorithm 8: Printing Non-inverted triangle using for loop:
+1.Start.  
+2.Use range(1,6) to generate values from 1 to 5.  
+3.Use for to repeat steps for each value.  
+4.Use print() to display "*" multiplied by the value.  
+5.Stop.  
+# Conclusion:
+A for loop in Python is used to iterate over sequences and execute a block of code repeatedly. It is simple, efficient, and widely used for processing data collections.
