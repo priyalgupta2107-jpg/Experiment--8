@@ -72,11 +72,30 @@ Move to the next value of i (decrease by 1 each time).
 4.Stop when i becomes 0.  
 5.Display the result.  
 6.End.    
-## Algorithm 8: Printing Non-inverted triangle using for loop:
-1.Start.  
-2.Use range(1,6) to generate values from 1 to 5.  
-3.Use for to repeat steps for each value.  
-4.Use print() to display "*" multiplied by the value.  
-5.Stop.  
+## Algorithm 8a: Printing inverted triangle using for loop:
+1.Start the program.  
+2.Initialize a for loop using range(1,6) to control the number of rows.  
+3.The loop variable i starts from 1.  
+4.In each iteration, print "* " multiplied by i using print("* " * i).  
+5.After printing each row, increase the value of i by 1 automatically.   
+6.Repeat the process until i becomes 5.  
+7.Stop the program.  
+## Algorithm 8b: Printing non-inverted triangle of 7 lines using for loop:
+1.Start the program.  
+2.Initialize a for loop using range(1,8) to control the number of rows.  
+3.The loop variable i starts from 1.  
+4.In each iteration, print spaces " "*(7-i) to align the pyramid.  
+5.Then print stars "* "*i using print(" "*(7-i) + "* "*i).  
+6.Increase the value of i by 1 after each iteration until it becomes 7.  
+7.Stop the program.  
+## Algorithm 8c: Printing pryramidal triangle using for loop:
+1.Start the program.  
+2.Initialize a for loop using range(1,6) to control the number of rows.  
+3.The loop variable i starts from 1.  
+4.In each iteration, print spaces " "*(5-i) to align the pyramid.  
+5.Then print stars "* "*i to form the pyramid pattern.  
+6.Increase the value of i by 1 after each iteration until it becomes 5.   
+7.Stop the program.  
+
 # Conclusion:
 A for loop in Python is used to iterate over sequences and execute a block of code repeatedly. It is simple, efficient, and widely used for processing data collections.
