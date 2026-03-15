@@ -57,21 +57,21 @@ inner loop k from 0 to 2 (for multiplication and addition).
 ## Algorithm 6: To print all Prime numbers in given range.
 1.Start.  
 2.Set the range of numbers from 2 to 49 (using range(2, 50)).  
-3.For each number num in this range, do the following:Check divisibility of num by all numbers from 2 to num-1.
+3.For each number num in this range, do the following:Check divisibility of num by all numbers from 2 to num-1.  
 4.For each value i in range(2, num):If num % i == 0 num is not prime and Exit the inner loop using break,  
 If the inner loop completes without finding any divisor (i.e., no break occurred), then:num is a prime number.  
-5.Print num and display result.
-6.Repeat steps for all numbers in the range.
-7.End.
+5.Print num and display result.  
+6.Repeat steps for all numbers in the range.  
+7.End.  
 ## Algorithm 7: Printing a Right-Angled Triangle Star Pattern using for loop:
 1.Start.  
-2.Initialize a loop variable i from 5 down to 1(using range(5, 0, -1)).  
-3.For each value of i, do the following:
-Print "" repeated i times "" * i.  
-Move to the next value of i (decrease by 1 each time).  
-4.Stop when i becomes 0.
-5.Display the result.
-6.End.  
+2.Initialize a loop variable i from 5 down to 1(using range(5, 0, -1)).    
+3.For each value of i, do the following:  
+Print "" repeated i times "" * i.    
+Move to the next value of i (decrease by 1 each time).    
+4.Stop when i becomes 0.  
+5.Display the result.  
+6.End.    
 ## Algorithm 8: Printing Non-inverted triangle using for loop:
 1.Start.  
 2.Use range(1,6) to generate values from 1 to 5.  
